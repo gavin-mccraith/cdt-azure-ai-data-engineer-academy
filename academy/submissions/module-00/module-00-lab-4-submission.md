@@ -11,16 +11,16 @@
 | Field | Value |
 |--------|-------|
 | Module | Module 00 – Engineering Foundations |
-| Lab | Lab 0 -  |
+| Lab | Lab 04 - Containerisation with Docker |
 | Version | 1.0.0 |
-| Date | DD Month YYYY |
+| Date | 02 August 2026 |
 | Student | Gavin McCraith-Smith |
 
 ---
 
 # Objective
 
-Briefly describe the objective of this lab in your own words.
+Learn what Docker is and how to use it - creating first SQL instance and running it and connecting to the server via VS Code. 
 
 ---
 
@@ -129,17 +129,7 @@ arm64
 
 # Issues Encountered
 
-Describe any issues encountered.
-
-Include:
-
-- Error messages
-- Resolution
-- Whether further investigation is required
-
-If none:
-
-> None encountered.
+No issues encountered.
 
 ---
 
@@ -147,19 +137,20 @@ If none:
 
 ## Question 1
 
-Answer
+Deleting the container only removes the locally created instance, not the whole image. Some of this data may not be contained in the container but within the image blueprint itself.
 
 ---
 
 ## Question 2
 
-Answer
+Docker would make this easier at it would allow all ten developers to run the same version / instance / setup of an application. This saves any potential conflict if difference developers are running difference versions of software.
 
 ---
 
 ## Question 3
 
-Answer
+Containers may be advantageous over virtual machines due to their consistancy across multiple users / machines where as VMs may become outdated on versions. 
+Additionally, VM connections can drop / go offline where as a local docker instance wouldn't.
 
 ---
 
@@ -167,17 +158,25 @@ Answer
 
 ## What did I learn today?
 
+Leanred how to download images and create containers for SQL2022 and connect to it vis VS Code.
+
 ---
 
 ## What challenged me?
+
+I didn't find anything particular challenging dueing this Lab, however understanding the docker prompts will take some time to become firm in memory.
 
 ---
 
 ## What would I like to understand better?
 
+Nothing at this moment, but look forward to learning / using more of docker and what it can do and how it can be applied as the course progresses.
+
 ---
 
 ## What can I apply immediately?
+
+The use of SQL insrances created from Docker.
 
 ---
 
@@ -187,9 +186,9 @@ Record technical lessons rather than personal reflections.
 
 Example:
 
-- Homebrew is the preferred package manager for macOS.
 - Docker containers provide isolated development environments.
-- Azure CLI allows Azure resources to be managed from the command line.
+- SQL instances can be created via docker with much ease compared to a local install of a server on a Windows machine. 
+- multiple containers can be made from a single image as the image is the blueprint from which a container can be created.
 
 ---
 
@@ -199,14 +198,14 @@ Record every new command introduced during this lab.
 
 | Command | Purpose |
 |----------|---------|
-|  |  |
-|  |  |
+| docker images | view what images are available for use |
+| docker ps | view which containers are running |
 
 ---
 
 # Time Taken
 
-Approximately:
+Approximately: 120 mins
 
 ---
 
@@ -214,10 +213,10 @@ Approximately:
 
 | Area | Rating (1–5) |
 |------|:------------:|
-| Understanding | |
-| Confidence | |
-| Practical Ability | |
-| Documentation Quality | |
+| Understanding | 4 |
+| Confidence | 4 |
+| Practical Ability | 4 |
+| Documentation Quality | 5 |
 
 ---
 

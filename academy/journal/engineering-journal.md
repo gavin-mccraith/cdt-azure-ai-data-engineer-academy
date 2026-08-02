@@ -60,3 +60,16 @@ Details:
 Challenges: 
 
 - logging in to GitHub via terminal did not work using password. Instead had to generate an auth token from within GitHub to be used.
+
+
+### Lab 4
+
+Date 02/08/2026
+
+- Learned how to use docker to import containers and images, specifically SQL 2022. Also started the SQL server and stopped it.
+
+- What surprised me most about docker is how simple it was to create and run an SQL instance and connect to it on VS Code. 
+
+- The difference between an Image and Container is that an image is the blueprint of the application and the container is the local version used for each instance.
+
+- I think docker is used so widely in cloud enginerring due to the ease of use and the repeatabolity / consistancy that can be used across multiple machines and platforms and creates uniformity, reducing the number of issues you can run in to if difference machines have difference versions.
