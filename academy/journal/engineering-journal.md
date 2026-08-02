@@ -41,3 +41,22 @@ Which tool am i least familiar with:
 Docker and Homebrew are the tools i'm least familiar with. 
 
 I look forward to learning more about both of these tools and how they are utilised.
+
+### Lab 3
+
+Date: 02/08/2026
+
+Learned how to use: 
+
+- Git
+- GitHub
+
+Details: 
+
+- create a GitHub repository
+- create a Git commit 
+- Git terminal commands for connecting and submitting 
+
+Challenges: 
+
+- logging in to GitHub via terminal did not work using password. Instead had to generate an auth token from within GitHub to be used.
