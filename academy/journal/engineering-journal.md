@@ -73,3 +73,14 @@ Date 02/08/2026
 - The difference between an Image and Container is that an image is the blueprint of the application and the container is the local version used for each instance.
 
 - I think docker is used so widely in cloud enginerring due to the ease of use and the repeatabolity / consistancy that can be used across multiple machines and platforms and creates uniformity, reducing the number of issues you can run in to if difference machines have difference versions.
+
+
+### Lab 5
+
+Date 03/08/2026
+
+Connecting Python to SQL is surpisingly simple once you know what to do. When it was first mentioned and seeing a few steps involved though this may have been a more involved process but was surprislingly simple and look forward to using it frequesntly due to it's ease.
+
+I think python is widely used for data engineering due to it's simplicity, repeatability and uncomplicated nature. To connect to an sql database and insert data into the database only took a few lines of code.
+
+The most "real-world" part of this lab was connecting to the SQL database, creating the database and inserting data to the database. As someone who uses SQL daily and has only done so through SQL Management Studio, it was good to see the results of another means of doing this not directly through a UI and via simple code instead.
