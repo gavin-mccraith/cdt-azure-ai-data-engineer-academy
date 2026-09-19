@@ -3,9 +3,9 @@ import pyodbc
 connection_string = (
     "DRIVER={ODBC Driver 18 for SQL Server};"
     "SERVER=localhost,1433;"
-    "DATABASE=<dbname>;"
+    "DATABASE=GreenLeafRetail;"
     "UID=sa;"
-    "PWD=<password>;"
+    "PWD=GIZMOBraxmawn5$;"
     "TrustServerCertificate=yes;"
 )
 

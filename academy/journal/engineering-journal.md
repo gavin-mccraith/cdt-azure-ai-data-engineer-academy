@@ -84,3 +84,26 @@ Connecting Python to SQL is surpisingly simple once you know what to do. When it
 I think python is widely used for data engineering due to it's simplicity, repeatability and uncomplicated nature. To connect to an sql database and insert data into the database only took a few lines of code.
 
 The most "real-world" part of this lab was connecting to the SQL database, creating the database and inserting data to the database. As someone who uses SQL daily and has only done so through SQL Management Studio, it was good to see the results of another means of doing this not directly through a UI and via simple code instead.
+
+
+### Lab 6
+
+Date 14/09/2026
+
+Reading CSV files is a simple process but can also become complex when data isn't "as expected". I.e. if the format / encoding is not consistent or in the expected types. 
+
+I think CSV files remain common as they are a universal format of file that many programs / software can output and read. It also allows for "simple data" in that formatting of fields, tables, etc doesn't become an issue or cause data integrity losses.
+
+Python allows us to bulk import multiple files with ease over something like manually having to import data from several files on by one as you would need to do through, for example, MS SQL UI.
+
+### Lab 7
+
+Date 15/09/2026
+
+Separating configuration allows us to ensure secure information like passwords are not stored in the code and potentially exposed. It also allows us to use a single file for multiple uses rather than repeating input / copying of these setup steps between multiple code files. 
+
+Logging is essential in a production system as it allows any issues to be logged in a file where it can be accessed by an engineer at a later date to try and identify an issues rather than having to try and recreate the environment or rerun the sequence of events that lead to an error. Although this may be needed at times, a log file may reduce this if the log provides enough information for an engineer to solve the issue.
+
+File archiving provides the benefit of knowing that a file has been processed and avoids potential duplication of data if already processed files are left in a root folder and code re-run.
+
+
